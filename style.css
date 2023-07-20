@@ -1,0 +1,30 @@
+body {
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+}
+
+.logo {
+    width: 15%;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-menu li,
+.main-menu a {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #4E568D;
+    text-decoration: none;
+    list-style: none;
+}
