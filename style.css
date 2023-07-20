@@ -1,5 +1,6 @@
 body {
-    font-family: 'Ysabeau Infant', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 .navbar {
@@ -7,6 +8,11 @@ body {
     align-items: center;
     justify-content: space-around;
     height: 60px;
+    position: sticky;
+    /* background-color: #e6eff5; */
+    z-index: 1;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .logo {
@@ -27,4 +33,148 @@ body {
     color: #4E568D;
     text-decoration: none;
     list-style: none;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    align-items: center;
+}
+
+.half-width {
+    width: 50%;
+    margin-left: 40px;
+    padding: 40px;
+    /* border: 1px solid red; */
+}
+
+.welcome-text {
+    color: white;
+    background-color: #4E568D;
+    border-radius: 10px;
+    max-width: 308px;
+    font-size: 17px;
+    padding: 10px 20px;
+}
+
+.hero-text {
+    font-size: 60px;
+}
+
+.hero-tagline {
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.hero-btn {
+    text-decoration: none;
+    background-color: #283159;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    border-radius: 3px;
+}
+
+.hero-img {
+    width: 60%;
+    position: relative;
+    top: 50px;
+    left: 80px;
+}
+
+.service-title {
+    color: #090F4E;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.service-orange {
+    background-color: #FFF0E9;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.service-blue {
+    background-color: #E9EDFF;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.service-yellow {
+    background-color: #FFF6DD;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    justify-content: center;
+}
+
+.service {
+    /* border: 1px solid red; */
+    width: 300px;
+    margin: 10px;
+    padding: 30px 35px;
+    text-align: justify;
+}
+
+.service h3 {
+    color: #090F4E;
+    font-size: 25px;
+}
+
+.service p {
+    color: gray;
+}
+
+.service a {
+    font-weight: 700;
+    font-size: 17px;
+    text-decoration: none;
+    color: gray;
+}
+
+/* CASE STUDY */
+.case-study {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+.case-study-img {
+    width: 100%;
+}
+
+.case-study-text {
+    font-weight: 700;
+    color: #8480AE;
+}
+
+.case-study-title {
+    font-weight: 800;
+    font-size: 30px;
+    color: #0b0757;
+    line-height: 40px;
+}
+
+.case-study-details {
+    color: #b4b2c9;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.see-details-btn {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #6A35FF;
+    border-radius: 10px;
+    padding: 10px 25px;
+    text-decoration: none;
 }
