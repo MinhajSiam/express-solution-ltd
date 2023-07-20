@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    margin: 0;
+    /* margin: 0; */
 }
 
 .navbar {
@@ -177,4 +177,19 @@ body {
     border-radius: 10px;
     padding: 10px 25px;
     text-decoration: none;
+}
+
+/* FOOTER */
+.footer-menu {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+}
+
+.footer-cl img {
+    width: 80%;
+}
+
+.footer-cl,
+.cl-02 {
+    grid-row-start: auto;
 }
