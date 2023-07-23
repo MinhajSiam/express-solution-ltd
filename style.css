@@ -193,3 +193,9 @@ body {
 .cl-02 {
     grid-row-start: auto;
 }
+
+@media screen and (max-width: 600px) {
+    body {
+        display: none;
+    }
+}
