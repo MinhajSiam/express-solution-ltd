@@ -8,11 +8,16 @@ body {
     align-items: center;
     justify-content: space-around;
     height: 60px;
-    position: sticky;
-    /* background-color: #e6eff5; */
+    background-color: #ffffff;
     z-index: 1;
     padding-top: 10px;
     padding-bottom: 20px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .logo {
@@ -28,7 +33,7 @@ body {
 .main-menu a {
     margin-left: 10px;
     margin-right: 10px;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 600;
     color: #4E568D;
     text-decoration: none;
@@ -73,7 +78,7 @@ body {
     font-size: 17px;
     font-weight: 700;
     color: white;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 .hero-img {
